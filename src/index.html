@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Please Can I </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="ui modal">
+        <i class="close icon"></i>
+        <div class="header">
+            Please type a plea in the textbox
+         </div>
+
+        <div class="actions">
+            <div class="ui positive right labeled icon button">
+                Okay
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- create textbox for child's plea -->
+        <div class="ui massive fluid icon input" id="plea-input-div">
+            <input type="text" id="plea-input" placeholder="Type Plea Here...">
+            <i class="edit outline icon"></i>
+
+        </div>
+        <div class="ui icon input" id="number-div">
+            <div class="ui mini vertical buttons" id="arrow-buttons">
+                <button class="ui icon button" id="up-arrow">
+                    <i class="caret massive square up outline icon"></i>
+                </button>
+                <button class="ui icon button" id="down-arrow">
+                    <i class="caret massive square down outline icon"></i>
+                </button>
+            </div>
+            <input id="repeat-select" type="number" value="1" placeholder="00">
+            <i class="hashtag icon"></i>
+        </div>
+
+
+
+        <!-- <datalist id="repeat-options"></datalist> -->
+    </div>
+
+
+    <!-- add dropdown for selecting number of repeats (1-100) -->
+
+
+    <!-- button to show plea text -->
+    <div id="button-group">
+        <button class="ui inverted red button massive" id="submit-plea">Submit form</button>
+
+        <button class="ui inverted red button massive" id="random-number">Random Number</button>
+    </div>
+
+
+    <!-- Display full text of plea -->
+    <div id="display-plea"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>
