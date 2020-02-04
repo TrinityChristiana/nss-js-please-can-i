@@ -5,7 +5,8 @@ Date Created: 02/04/20 | Date Modified: 02/04/20
 
 *This assignment is an exercise: [Directions here](directions.md)*
 
-Preview assignment here: 
+Preview assignment here: https://trinity-please-can-i.netlify.com/
+
 ***
 ## Description: 
 ### - This application takes the user's text input, or plea, and number input. The plea will be written to the DOM many times as the user chooses in the number input.
